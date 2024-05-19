@@ -1,0 +1,3438 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Admin | Sawa</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+</head>
+
+<body>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="register.html" class="logo">
+              <img src="assets/images/logo2.png">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#info">Home</a></li>
+              <li class="scroll-to-section"><a href="#organizations2">Requesting Organizations</a></li>
+              <li class="scroll-to-section"><a href="#verified-organizations">Verified Organizations</a></li>
+              <li class="scroll-to-section"><a href="#donors2">Requesting Donors</a></li>
+              <li class="scroll-to-section"><a href="#teachers">Teachers</a></li> 
+              <li class="scroll-to-section"><a href="#doctors">Doctors</a></li> 
+              <li class="scroll-to-section"><div class="account-btn" class="active"><a href="#info"><i class="	fas fa-user-circle"></i></a></div></li>  
+            </ul> 
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+
+ 
+  <div class="container">
+    <div class="owl-carousel owl-banner">
+      <div class="item header-text">
+        <div class="down-buttons">
+        </div>
+</div>
+</div>
+</div>
+
+<div id="info" class="contact-us section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1">
+      </div>
+      <div class="col-lg-10">
+      <div class="col-lg-12">
+        <div class="section-heading">
+          <br>
+          <br>
+          <h2>My <span>Account</span> Information</h2>
+        </div>
+      </div>
+      <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-2 offset-lg-1">
+                 <div class="infoLabel"> Username</div>
+                  </div>
+                  <div class="col-lg-5 ">
+                    <div class="name-box" id="name">admin@sawa </div>
+                  </div>
+                  <div class="col-lg-4 ">
+                    <div class="update">
+                      <button type="submit" class="updateInfo" onclick="FurtherInfoF1()">Change Password </button>
+                    </div>
+                  </div>
+              </div>
+              </div>
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-2 offset-lg-1">
+                 <div class="infoLabel"> First Name</div>
+                  </div>
+                  <div class="col-lg-5 ">
+                    <div class="name-box" id="name">John </div>
+                  </div>
+              </div>
+              </div>
+              <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-2 offset-lg-1">
+                 <div class="infoLabel"> Last Name</div>
+                  </div>
+                  <div class="col-lg-5 ">
+                    <div class="name-box" id="name"> Doe</div>
+                  </div>
+              </div>
+              </div>
+              <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-2 offset-lg-1">
+                 <div class="infoLabel"> Email</div>
+                  </div>
+                  <div class="col-lg-5 ">
+                    <div class="name-box"  id="name">JohnDoe@yahoo.com</div>
+                  </div>
+              </div>
+              </div>
+                  </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact-dec">
+    <img src="assets/images/contact-dec.png" alt="">
+  </div>
+</div>
+
+
+<div id="popup-f1" class="popup-c">
+  <div class="popup-content-c">
+      <div class="pop-up-c">
+        <span class="close-c" id="close-popup-f1" onclick="closePopupF1()">&times;</span>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-heading">
+            </div>
+          </div>
+          <div class="col-lg-12 align-self-center">
+            <form id="contact-f1" action="" method="get">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h3>Change Password</h3>
+                  <br>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="password"  id="old" placeholder="Old Password" autocomplete="on" required min="0" >
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="password"  id="new" placeholder="New Password" autocomplete="on" required min="0" >
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="password"  id="check" placeholder="Verify New Password" autocomplete="on" required min="0" >
+                  </fieldset>
+                </div>
+              <div class="col-lg-12">
+                <div class="main-red-button-hover">
+                  <button type="submit" id="form-submit" onclick="checkPass()" >Update Now</button>
+                </div>
+              </div>
+              </div>
+            </form>
+          </div>
+          </div>
+        </div>
+      </div>
+  </div>
+   
+
+  <div id="organizations2" class="pricing-tables2">
+    <div class="tables-left-dec">
+      <img src="assets/images/tables-left-dec.png" alt="">
+    </div>
+    <div class="tables-right-dec">
+      <img src="assets/images/tables-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Requesting <em></em><span>Organizations</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="item first-itemS" id="first-item-reg">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1">
+                    <img src="assets/images/toy-run.jpeg">
+                  </div>
+                  <div class="col-lg-2">
+                <h4>Marwa Fayed's Toy Run</h4>
+              </div>
+              <div class="col-lg-3">
+                <div class="main-blue-button-hover">
+                  <a href="OrgDocuments.zip" download >Download PaperWork</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="FurtherInfoF2()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="verify1(event)">
+                  <a href="#" >Verify</a>
+                </div>
+              </div>
+              <div class="col-lg-2 ">
+                <div class="main-blue-button-hover" onclick="reject1(event)">
+                  <a href="#" >Reject</a>
+                </div>
+              </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item first-itemS" id="second-item-reg">
+            <div class="row">
+             
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1">
+                    <img src="assets/images/sawiris2.png">
+                  </div>
+                  <div class="col-lg-2">
+                <h4>Sawiris Social Development Foundation</h4>
+              </div>
+              <div class="col-lg-3">
+                <div class="main-blue-button-hover">
+                  <a href="OrgDocuments.zip" download >Download PaperWork</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="FurtherInfoF3()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="verify2(event)">
+                  <a href="#" >Verify</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="reject2(event)">
+                  <a href="#" >Reject</a>
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item first-itemAzhar" id="eighteenth-item-reg">
+            <div class="row">
+              
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1">
+                    <img src="assets/images/azhar.png">
+                  </div>
+                  <div class="col-lg-2">
+                <h4>Al-Azhar Mosque</h4>
+              </div>
+              <div class="col-lg-3">
+                <div class="main-blue-button-hover">
+                  <a href="OrgDocuments.zip" download >Download PaperWork</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="FurtherInfoAzhar()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="verify188(event)">
+                  <a href="#" >Verify</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="reject18(event)">
+                  <a href="#" >Reject</a>
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="item first-itemS" id="nineteenth-item-reg">
+            <div class="row">
+             
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1">
+                    <img src="assets/images/george.png">
+                  </div>
+                  <div class="col-lg-2">
+                <h4>Saint George's Church</h4>
+              </div>
+              <div class="col-lg-3">
+                <div class="main-blue-button-hover">
+                  <a href="OrgDocuments.zip" download >Download PaperWork</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="FurtherInfoGeorge()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="verify199(event)">
+                  <a href="#" >Verify</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="reject19(event)">
+                  <a href="#" >Reject</a>
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="item first-itemS" id="twenty-item-reg">
+            <div class="row">
+             
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1">
+                    <img src="assets/images/metro2.png">
+                  </div>
+                  <div class="col-lg-2">
+                <h4>Metropolitan School</h4>
+              </div>
+              <div class="col-lg-3">
+                <div class="main-blue-button-hover">
+                  <a href="OrgDocuments.zip" download >Download PaperWork</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="FurtherInfoMetro()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="verify200(event)">
+                  <a href="#" >Verify</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="reject20(event)">
+                  <a href="#" >Reject</a>
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-12">
+          <div class="item first-itemS" id="twentyone-item-reg">
+            <div class="row">
+              
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1">
+                    <img src="assets/images/ahlmasr.png">
+                  </div>
+                  <div class="col-lg-2">
+                <h4>Ahl Masr Burns Hospital</h4>
+              </div>
+              <div class="col-lg-3">
+                <div class="main-blue-button-hover">
+                  <a href="OrgDocuments.zip" download >Download PaperWork</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="FurtherInfoSalam()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="verify211(event)">
+                  <a href="#" >Verify</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="reject21(event)">
+                  <a href="#" >Reject</a>
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-lg-12">
+          <div class="item first-itemS" id="third-item-reg">
+            <div class="row">
+              
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1">
+                    <img src="assets/images/magdi.jpg">
+                  </div>
+                  <div class="col-lg-2">
+                <h4>Magdi Yacoub Foundation</h4>
+              </div>
+              <div class="col-lg-3">
+                <div class="main-blue-button-hover">
+                  <a href="OrgDocuments.zip" download >Download PaperWork</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="FurtherInfoC2()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="verify3(event)">
+                  <a href="#" >Verify</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="reject3(event)">
+                  <a href="#" >Reject</a>
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div id="popup-c3" class="popup-c">
+    <div class="popup-content-c">
+        <div class="pop-up-c">
+          <span class="close-c" id="close-popup-c3" onclick="closePopupC3()">&times;</span>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-heading">
+              </div>
+            </div>
+            <div class="col-lg-12 align-self-center">
+              <form id="contact-c3" action="" method="get">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h3>Case ID:358</h3>
+                    <br>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Patient Name: Mostafa Aziz</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Blood Type: B+</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <br>
+                    <label for ="clothes"><h5><b>Hospital Details</b></h5></label>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Name: Andalusia Hospital</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Area: Madinet Nasr</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Governorate: Cairo</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <a href="https://www.google.com/maps/place/Andalusia+Smouha+Hospital/@31.2164379,29.9394651,17z/data=!3m1!4b1!4m6!3m5!1s0x14f5c4922a140703:0x8476f62bb5008c82!8m2!3d31.2164379!4d29.94204!16s%2Fg%2F12hpzrf17?entry=ttu"
+                    target="_blank"><i class="fas fa-map-marker-alt"></i> Address: Street 16, Madinet Nasr, Cairo, Egypt</a>
+                  </div>
+                <div class="col-lg-12">
+                </div>
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+   
+  <div id="popup-c1" class="popup-c">
+    <div class="popup-content-c">
+        <div class="pop-up-c">
+          <span class="close-c" id="close-popup-c1" onclick="closePopupC1()">&times;</span>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-heading">
+              </div>
+            </div>
+            <div class="col-lg-12 align-self-center">
+              <form id="contact-c1" action="" method="get">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h3>Case ID:450</h3>
+                    <br>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Item Name: Pasta</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Amount Needed: 50 packets</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <input type="number" name="Amount" id="amount" placeholder="Amount of pasta you can donate" autocomplete="on" required min="0">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Item Name: Tomato Sauce</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Amount Needed: 6 packets</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <input type="number" name="Amount" id="amount" placeholder="Cans of tomato sauce you can donate" autocomplete="on" required min="0">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Item Name: Milk</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Amount Needed: 13 packets</label>
+                  </div>
+                  <div class="col-lg-12">
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <input type="number" name="Amount" id="amount" placeholder="Cartons of milk you can donate" autocomplete="on" required min="0">
+                    </fieldset>
+                  </div>
+                <div class="col-lg-12">
+                  <div class="main-red-button-hover">
+                    <button type="submit" id="form-submit">Give Now &#x1F90D;</button>
+                  </div>
+                </div>
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+   
+ 
+<div id="verified-organizations" class="pricing-tables2">
+  <div class="tables-left-dec">
+    <img src="assets/images/tables-left-dec.png" alt="">
+  </div>
+  <div class="tables-right-dec">
+    <img src="assets/images/tables-right-dec.png" alt="">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="section-heading">
+          <h2>Verified <em>Organizations</em><span></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-5">
+    <div class="search-container">
+      <input type="text" id="searchBox" placeholder="Search..." class="search-input" >
+      <button onclick="performSearch(event)" class="search-button">Search</button>
+  </div>
+</div>
+<div class="col-lg-7">
+  <div class="dropdown">
+    <button class="dropbtn">Filter</button>
+    <div class="dropdown-content" id="first-dropdown">
+      <a href="#organizations" onclick="removeFilter()">No Filter</a>
+      <a href="#" onclick="showSecondDropdown(event, 'Option 1')">Organization Type</a>
+      <a href="#" onclick="showSecondDropdown(event, 'Option 2')">Governorate</a>
+      <a href="#" onclick="showSecondDropdown(event, 'Option 3')">Area</a>
+      <br>
+    </div>
+  </div>
+  <div id="second-dropdown" class="dropdown" style="display: none;">
+    <button class="dropbtn" id="second-dropbtn">Second Dropdown</button>
+    <div class="dropdown-content" onclick="stopPropagation(event)">
+      <!-- Options for the second dropdown will be added dynamically -->
+    </div>
+  </div>
+  <div id="third-dropdown" class="dropdown" style="display: none;">
+    <button class="dropbtn" id="third-dropbtn">Third Dropdown</button>
+    <div class="dropdown-content" onclick="stopPropagation(event)">
+      <!-- Options for the second dropdown will be added dynamically -->
+    </div>
+  </div>
+</div>
+</div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="item first-itemMisr" id="first-item">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/misr-el-kheir.jpg">
+            </div>
+            <div class="col-lg-6">
+              <h4>Misr El Kheir</h4>
+              <ul>
+                <li>MEK is a non-profit development institution established in 2007 
+                  with the objective of developing the Egyptian individual in a comprehensive manner. Five key areas 
+                  have been selected for human development namely: Health, Education, Scientific Research, Social Solidarity 
+                  and Aspects of Life.</li>
+              </ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoO1()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteO1(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="item second-item57" id="second-item">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/57357.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>Children's Cancer Hospital 57357</h4>
+              <ul>
+                <li>The Children's Cancer Hospital Egypt 57357 widely known as 57357 is a unique healthcare institution. 
+                  The people of Egypt and friends from all over the world have contributed generously to the establishment 
+                  of the hospital which has been completely built by donations.
+                  </li>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoO2()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteO2(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="item third-itemSA" id="sixteenth-item" style="display: none;">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/ahlmasr.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>Ahl Masr Burns Hospital</h4>
+              <ul>
+                <li>Established in 2013, Ahl Masr is the first non-profit in the Middle East and Africa dedicated to treating, preventing, and researching trauma and burn injuries. Pioneering in healthcare philanthropy, they lead efforts to address trauma and burns, serving as the region's largest center for burn victims.
+                  </li></div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoSalam()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteSalam(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="item sixth-item" id="sixth-item">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/al-orman.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>Al-Orman</h4>
+              <ul>
+                <li>Al Orman is an Egyptian non-profit organization. It was founded in 1993. The organization is serving those 
+                  in need without any religious or political bias. It depends primarily on financial funds from Egyptians whether 
+                  living in Egypt or abroad.</li>
+              </ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoO6()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteO6(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="item third-itemSH" id="seventeenth-item" style="display:block;">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/alnas.jpeg">
+            </div>
+            <div class="col-lg-6">
+              <h4>Al-Nas Hospital </h4>
+              <ul>
+                <li>Al-Nas Hospital, situated in Qalyubia governorate, is a leading charitable medical center renowned in the Arab region and Africa. With a capacity of 600 beds, it primarily focuses on pediatric care. Since its opening in September 2019, the hospital has
+                   prioritized children's heart diseases.These services are free 100% according to the best and latest standards and technologies.</li></ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoShifa()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteShifa(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="item third-itemR" id="third-item">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/red-crescent.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>Egyptian Red Crescent</h4>
+              <ul>
+                <li>Egyptian Red Crescent works to achieve the ultimate goal of alleviating humanitarian sufferings especially for those in crisis.
+                  It is guided by the seven principles of the movement; humanity, impartiality, Neutrality, Independence, 
+                  Voluntary Service, Unity and Universality.</li>
+              </ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoO3()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteO3(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="item forth-itemFood" id="forth-item">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/food-bank.jpg">
+            </div>
+            <div class="col-lg-6">
+              <h4>Egyptian Food Bank</h4>
+              <ul>
+                <li>The EFB was founded in 2006 by a group of businessmen with the aim of serving the society and 
+                  helping those in need by specializing in Hunger under the name of Egyptian Food Bank that would 
+                  be converted to a national project that serves all governorates in Egypt.</li>
+              </ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoO4()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteO4(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+      
+      
+      <div class="col-lg-12">
+        <div class="item third-itemO" id="twelveth-item" style="display: none;">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/george.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>Saint George's Church</h4>
+              <ul>
+                <li> Saint George's Church, also known as the Church of Saint George in Cairo, Egypt, engages in charitable activities to support its community. These initiatives include providing food aid, 
+                  shelter, medical assistance, education support, and other forms of aid to those in need.
+                </li> </ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoGeorge()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteGeorge(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="item fifth-itemO" id="seventh-item" style="display: none;">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/toy-run.jpeg">
+            </div>
+            <div class="col-lg-6">
+              <h4>Marwa Fayed's Toy Run</h4>
+              <ul>
+                <li>In the loving memory of Marwa Fayed, Marwa Fayed's Toy Run was initiated. MFTR is a small organization 
+                  with one single aim, spreading joy to underprivileged children in Egypt and abroad by distributing toys 
+                  to them.</li>
+              </ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoF2()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteO7(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="item second-itemSaw" id="eighth-item" style="display: none;">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/sawiris.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>Sawiris Social Development Foundation</h4>
+              <ul>
+                <li>SFSD was established with an endowment from the 
+                  Sawiris Family. Since its establishment, SFSD 
+                  focused on addressing the most pressing issues facing the most marginalized Egyptians such as poverty, 
+                  unemployment, provision of health services, and little access to quality education.</li>
+              </ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoF3()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteO8(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="item fifth-itemO" id="fifth-item">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/resala.jpeg">
+            </div>
+            <div class="col-lg-6">
+              <h4>Resala</h4>
+              <ul>
+                <li>Resala was established in 1999. It is powered by over 1,500,000 volunteers spanning 67 branches all over Egypt. 
+                  It provides activities including: caring for orphans, helping the blind, the deaf, and children with special needs,
+                   blood donations; poverty alleviation; and literacy training.</li>
+              </ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoO5()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteO5(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="item third-itemMag" id="nineth-item" style="display: none;">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/magdi.jpg">
+            </div>
+            <div class="col-lg-6">
+              <h4>Magdi Yacoub Foundation</h4>
+              <ul>
+                <li>MYF is an Egyptian registered charity NGO that was founded in 2008 
+                  by Sir Magdi Yacoub, the late Dr. Ahmed Zewail and Ambassador Mohamed Shaker. MYF is running one of the 
+                  exceptional projects of enormous significance to the health and wellbeing of the Egyptian people that is 
+                  entirely based on donations.</li>
+              </ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoC2()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteO9(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="item third-itemO" id="tenth-item" style="display: none;">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/azhar.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>Al-Azhar Mosque</h4>
+              <ul>
+                <li>Azhar Mosque, also known as Al-Azhar Mosque,
+                 founded in 970 AD, is a significant religious and educational institution in Cairo, Egypt. It engages in various charitable activities, including assisting those in need,
+                  offering educational programs, and supporting community development initiatives.
+                </li>
+              </ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoAzhar()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteAzhar(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="item third-itemO" id="eleventh-item">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/hussein.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>Al-Hussein Mosque</h4>
+              <ul>
+                <li>Al-Hussein Mosque was founded in the 12th century.
+                   The mosque actively engages in charitable endeavors, including aiding those in need, 
+                   supporting education and healthcare, and contributing to community development projects.
+                </li></ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoHussein()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteHussein(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-12">
+        <div class="item third-itemO" id="thirteenth-item">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/mark.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>Saint Mark's Coptic Orthodox Cathedral</h4>
+              <ul>
+                <li>Established in the late 19th century, it plays a pivotal role in the community, engaging in charitable activities 
+                  such as providing food, shelter, medical aid, and education support to those in need.</li></ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoMark()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteMark(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="item third-itemO" id="fourteenth-item">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/cho.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>The International School of Choueifat</h4>
+              <ul>
+                <li>Founded in 1886, ISC branches contribute to their communities through various means, 
+                  including fundraising for local charities, community service projects, volunteer work, and 
+                  initiatives aimed at supporting disadvantaged communities.</li></ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoCho()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteCho(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="item third-itemM" id="fifteenth-item" style="display: none;">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/images/metro.png">
+            </div>
+            <div class="col-lg-6">
+              <h4>Metropolitan School</h4>
+              <ul>
+                <li>The Metropolitan School in Cairo, Egypt, is involved in community service and charitable activities as part of its dedication to social responsibility. These efforts encompass fundraising, 
+                  volunteer programs, community projects, and collaborations with local charitable organizations.</li></ul>
+            </div>
+          <div class="col-lg-2">
+            <br>
+            <div class="main-blue-button-hover" onclick="FurtherInfoMetro()">
+              <a href="#" >View Details</a>
+            </div>
+        </div>
+        <div class="col-lg-2">
+          <br>
+          <div class="main-red-button-hover" onclick="deleteMetro(event)">
+            <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+          </div>
+      </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="section-heading" id="NothingFound" style="display: none;">
+          <h5>No Results</h5>
+          <br>
+          <h6>Please ensure that you have typed the search term correctly</h6>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+     
+
+  
+    
+
+
+
+     
+
+
+        
+
+
+
+          
+
+
+
+            
+
+
+
+              
+
+
+                
+
+
+
+                  
+
+
+
+  <div id="donors2" class="pricing-tables2">
+    <div class="tables-left-dec">
+      <img src="assets/images/tables-left-dec.png" alt="">
+    </div>
+    <div class="tables-right-dec">
+      <img src="assets/images/tables-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>Requesting <em></em><span>Donors</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="item first-item" id="first-item-don">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/doctors2.png">
+              </div>
+              <div class="col-lg-10">
+                <div class="row">
+                  <div class="col-lg-2">
+                <h4>Mohamed Ismail Elaby</h4>
+              </div>
+              <div class="col-lg-4 ">
+                <div class="main-blue-button-hover">
+                  <a href="DonorDocuments.zip" download >Download PaperWork</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor11()">
+                  <a href="#" > Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="verifyDon1(event)">
+                  <a href="#" >Verify</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="rejectDon1(event)">
+                  <a href="#" >Reject</a>
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item second-itemT" id="second-item-don">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/teacher4.png">
+              </div>
+              <div class="col-lg-10">
+                <div class="row">
+                  <div class="col-lg-2">
+                <h4>Nada Medhat Hossam</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover">
+                  <a href="DonorDocuments.zip" download >Download PaperWork</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor5()">
+                  <a href="#" > Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="verifyDon2(event)">
+                  <a href="#" >Verify</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="rejectDon2(event)">
+                  <a href="#" >Reject</a>
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item second-itemT" id="third-item-don">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/teacher4.png">
+              </div>
+              <div class="col-lg-10">
+                <div class="row">
+                  <div class="col-lg-2">
+                <h4>Menna Ehab Zein</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover">
+                  <a href="DonorDocuments.zip" download >Download PaperWork</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor6()">
+                  <a href="#" > Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="verifyDon3(event)">
+                  <a href="#" >Verify</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-blue-button-hover" onclick="rejectDon3(event)">
+                  <a href="#" >Reject</a>
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="teachers" class="pricing-tables2">
+    <div class="tables-left-dec">
+      <img src="assets/images/tables-left-dec.png" alt="">
+    </div>
+    <div class="tables-right-dec">
+      <img src="assets/images/tables-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>Verified <em>Teachers</em><span></span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="item second-itemT" id="first-item-tech">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/teacher4.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Mazen Youssef Kamel</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor1()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-red-button-hover" onclick="closeT1(event)">
+                  <a href="#" ><i class="fas fa-trash-alt"></i></i></a>
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item second-itemT" id="second-item-tech">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/teacher4.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Magda Ahmed Yasser</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor2()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+            <div class="col-lg-2">
+              <div class="main-red-button-hover" onclick="closeT2(event)">
+                <a href="#" ><i class="fas fa-trash-alt"></i></a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item second-itemT" id="third-item-tech">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/teacher4.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Arwa Mohamed Taha </h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor3()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+            <div class="col-lg-2">
+              <div class="main-red-button-hover" onclick="closeT3(event)">
+                <a href="#" ><i class="fas fa-trash-alt"></i></a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item second-itemT" id="forth-item-tech">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/teacher4.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Abdelrahman Hesham Mohamed</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor4()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+            <div class="col-lg-2">
+              <div class="main-red-button-hover" onclick="closeT4(event)">
+                <a href="#" ><i class="fas fa-trash-alt"></i></a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item second-itemT" id="seventh-item-tech" style="display: none;">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/teacher4.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Nada Medhat Hossam</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor5()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+            <div class="col-lg-2">
+              <div class="main-red-button-hover" onclick="closeT5(event)">
+                <a href="#" ><i class="fas fa-trash-alt"></i></a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item second-itemT" id="eighth-item-tech" style="display: none;">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/teacher4.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Menna Ehab Zein</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor6()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+            <div class="col-lg-2">
+              <div class="main-red-button-hover" onclick="closeT6(event)">
+                <a href="#" ><i class="fas fa-trash-alt"></i></a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="doctors" class="pricing-tables2">
+    <div class="tables-left-dec">
+      <img src="assets/images/tables-left-dec.png" alt="">
+    </div>
+    <div class="tables-right-dec">
+      <img src="assets/images/tables-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>Verified <em>Doctors</em><span></span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="item second-item" id="first-item-doc">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/doctors2.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Mohamed Basel Mohamed</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor7()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="main-red-button-hover" onclick="closeD1(event)">
+                  <a href="#" ><i class="fas fa-trash-alt"></i></a>
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item second-item" id="second-item-doc">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/doctors2.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Noor Ahmed abdelghafar</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor8()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+            <div class="col-lg-2">
+              <div class="main-red-button-hover" onclick="closeD2(event)">
+                <a href="#" ><i class="fas fa-trash-alt"></i></a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item third-item" id="third-item-doc">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/doctors2.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Merna Mohamed Mahmoud</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor9()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+            <div class="col-lg-2">
+              <div class="main-red-button-hover" onclick="closeD3(event)">
+                <a href="#" ><i class="fas fa-trash-alt"></i></a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item forth-item" id="forth-item-doc">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/doctors2.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Omar Mohamed Medhat</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor10()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+            <div class="col-lg-2">
+              <div class="main-red-button-hover" onclick="closeD4(event)">
+                <a href="#" ><i class="fas fa-trash-alt"></i></a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="item fifth-item" id="seventh-item-doc" style="display: none;">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-1">
+                <img src="assets/images/doctors2.png">
+              </div>
+              <div class="col-lg-4">
+                <h4>Mohamed Ismail Elaby</h4>
+              </div>
+              <div class="col-lg-4">
+                <div class="main-blue-button-hover" onclick="FurtherInfoDonor11()">
+                  <a href="#" >View Details</a>
+                </div>
+              </div>
+            <div class="col-lg-2">
+              <div class="main-red-button-hover" onclick="closeD5(event)">
+                <a href="#" ><i class="fas fa-trash-alt"></i></a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div id="popup-o1" class="popup-c">
+      <div class="popup-content-c">
+          <div class="pop-up-c">
+            <span class="close-c" id="close-popup-o1" onclick="closePopupO1()">&times;</span>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                </div>
+              </div>
+              <div class="col-lg-12 align-self-center">
+                <form id="contact-o1" action="" method="get">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h3>Misr El Kheir</h3>
+                      <br>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                      <label for ="clothes"><img src="assets/images/misr-el-kheir.jpg"></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <br>
+                      <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 28452012</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes"><a href="https://mekeg.org/en"
+                        target="_blank"><i class="fas fa-globe"></i> mekeg.org</a></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes">Address: ش. الأهرام, شارع المقطم، 4 Al Nafoura Sq., Cairo Governorate</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                      target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                    </div>
+                  </div>
+                   
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div id="popup-o2" class="popup-c">
+      <div class="popup-content-c">
+          <div class="pop-up-c">
+            <span class="close-c" id="close-popup-o2" onclick="closePopupO2()">&times;</span>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                </div>
+              </div>
+              <div class="col-lg-12 align-self-center">
+                <form id="contact-o2" action="" method="get">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h3>Children's Cancer Hospital 57357</h3>
+                      <br>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                      <label for ="clothes"><img src="assets/images/57357.png"></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <br>
+                      <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 25351500</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes"><i class="fas fa-phone-alt"></i> 19057</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes"><a href="https://www.57357.org/en/home-page/"
+                        target="_blank"><i class="fas fa-globe"></i> www.57357.org</a></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes">Address: Sekat Hadid Al Mahger, Zeinhom, El Sayeda Zeinab, Cairo Governorate 4260102</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <a href="https://maps.app.goo.gl/j6fc3pFj7FrqFcni7" 
+                      target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div id="popup-o3" class="popup-c">
+      <div class="popup-content-c">
+          <div class="pop-up-c">
+            <span class="close-c" id="close-popup-o3" onclick="closePopupO3()">&times;</span>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                </div>
+              </div>  
+              <div class="col-lg-12 align-self-center">
+                <form id="contact-o3" action="" method="get">
+                  <div class="row">
+                <div class="col-lg-12">
+                  <h3>Egyptian Red Crescent</h3>
+                  <br>
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                  <label for ="clothes"><img src="assets/images/red-crescent.png"></label>
+                </div>
+                <div class="col-lg-12">
+                  <br>
+                  <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 225985555 </label>
+                </div>
+                <div class="col-lg-12">
+                  <label for ="clothes"><a href="https://www.egyptianrc.org/Home"
+                    target="_blank"><i class="fas fa-globe"></i> www.egyptianrc.org</a></label>
+                </div>
+                <div class="col-lg-12">
+                  <label for ="clothes">Address: Abd El Razak El Sanhouri St., Nasr City, Cairo, 11371, Egypt</label>
+                </div>
+                <div class="col-lg-12">
+                  <a href="https://maps.app.goo.gl/eZRmLcd58Y8wTUAE8" 
+                  target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div id="popup-o4" class="popup-c">
+      <div class="popup-content-c">
+          <div class="pop-up-c">
+            <span class="close-c" id="close-popup-o4" onclick="closePopupO4()">&times;</span>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                </div>
+              </div>
+              <div class="col-lg-12 align-self-center">
+                <form id="contact-o4" action="" method="get">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h3>Egyptian Food Bank</h3>
+                      <br>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                      <label for ="clothes"><img src="assets/images/food-bank.jpg"></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <br>
+                      <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 27586200 </label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes"><a href="https://www.efb.eg/"
+                        target="_blank"><i class="fas fa-globe"></i> www.efb.eg</a></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes">Address: 44 Gamal Abd Al Naser Axis, New Cairo 3, Cairo Governorate 4713311</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <a href="https://maps.app.goo.gl/oAFCP2mQCqSMYLty6" 
+                      target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div id="popup-o5" class="popup-c">
+      <div class="popup-content-c">
+          <div class="pop-up-c">
+            <span class="close-c" id="close-popup-o5" onclick="closePopupO5()">&times;</span>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                </div>
+              </div>
+              <div class="col-lg-12 align-self-center">
+                <form id="contact-o5" action="" method="get">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h3>Resala</h3>
+                      <br>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                      <label for ="clothes"><img src="assets/images/resala.jpeg"></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <br>
+                      <label for ="clothes"><i class="fas fa-phone-alt"></i> 19450 </label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes"><a href="https://resala.org/"
+                        target="_blank"><i class="fas fa-globe"></i> resala.org</a></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes">Address: 2 Zaki Rostom, Al Manteqah as Sadesah, Nasr City, Cairo Governorate 4450321</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <a href="https://maps.app.goo.gl/GrH9krYrBigKBFwT6" 
+                      target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div id="popup-o6" class="popup-c">
+      <div class="popup-content-c">
+          <div class="pop-up-c">
+            <span class="close-c" id="close-popup-o6" onclick="closePopupO6()">&times;</span>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                </div>
+              </div>
+              <div class="col-lg-12 align-self-center">
+                <form id="contact-o6" action="" method="get">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h3>Al-Orman</h3>
+                      <br>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                      <label for ="clothes"><img src="assets/images/al-orman.png"></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <br>
+                      <label for ="clothes"><i class="fas fa-phone-alt"></i> 19450 </label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes"><a href="https://shefaorman.org/"
+                        target="_blank"><i class="fas fa-globe"></i> shefaorman.org</a></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes">Address: 71 Abou Bakr El-Sedeek, El-Bostan, Heliopolis, Cairo Governorate 4470120</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <a href="https://maps.app.goo.gl/m6zCaxX4NvU7aiSn8" 
+                      target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                    </div>
+                    
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>    
+
+
+    <div id="popup-f2" class="popup-c">
+      <div class="popup-content-c">
+          <div class="pop-up-c">
+            <span class="close-c" id="close-popup-f2" onclick="closePopupF2()">&times;</span>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                </div>
+              </div>
+              <div class="col-lg-12 align-self-center">
+                <form id="contact-f2" action="" method="get">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h3>Marwa Fayed's Toy Run</h3>
+                      <br>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                      <label for ="clothes"><img src="assets/images/toy-run.jpeg"></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <br>
+                      <label for ="clothes"><i class="fas fa-phone-alt"></i> +010 60400070</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes"><a href="https://www.facebook.com/marwafayedstoyrun/"
+                        target="_blank"><i class="fas fa-globe"></i> www.facebook.com
+                        <br>marwafayedstoyrun</a></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes">Address: Nahla Abdelaziz, Wild Guanabana, 7 Aly Ibn Aby Taleb Street, 3rd Floor</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <a href="https://maps.app.goo.gl/1PMoihpWujSsu7Mk9" 
+                      target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+  <div id="popup-f3" class="popup-c">
+    <div class="popup-content-c">
+        <div class="pop-up-c">
+          <span class="close-c" id="close-popup-f3" onclick="closePopupF3()">&times;</span>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-heading">
+              </div>
+            </div>
+            <div class="col-lg-12 align-self-center">
+              <form id="contact-f3" action="" method="get">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h3>Sawiris Social Development Foundation</h3>
+                    <br>
+                  </div>
+                  <div class="col-lg-4"></div>
+                  <div class="col-lg-4">
+                    <label for ="clothes"><img src="assets/images/sawiris.png"></label>
+                  </div>
+                  <div class="col-lg-12">
+                    <br>
+                    <label for ="clothes"><i class="fas fa-phone-alt"></i>  +010 20951286 </label>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes"><a href="https://www.sawirisfoundation.org/"
+                      target="_blank"><i class="fas fa-globe"></i> www.sawirisfoundation.org</a></label>
+                  </div>
+                  <div class="col-lg-12">
+                    <label for ="clothes">Address: 10 Al Diwan, Qasr El Nil, Cairo Governorate 4272001</label>
+                  </div>
+                  <div class="col-lg-12">
+                    <a href="https://maps.app.goo.gl/3CG4bVy2UJry8wcb6" 
+                    target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="popup-c2" class="popup-c">
+      <div class="popup-content-c">
+          <div class="pop-up-c">
+            <span class="close-c" id="close-popup-c2" onclick="closePopupC2()">&times;</span>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                </div>
+              </div>
+              <div class="col-lg-12 align-self-center">
+                <form id="contact-c2" action="" method="get">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h3>Magdi Yacoub Foundation</h3>
+                      <br>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                      <label for ="clothes"><img src="assets/images/magdi.jpg"></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <br>
+                      <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 23226940</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes"><a href="https://www.myf-egypt.org/"
+                        target="_blank"><i class="fas fa-globe"></i> www.myf-egypt.org</a></label>
+                    </div>
+                    <div class="col-lg-12">
+                      <label for ="clothes">Address: St. off, 7 Aziz Abaza, 26 July St, Zamalek, Cairo Governorate</label>
+                    </div>
+                    <div class="col-lg-12">
+                      <a href="https://maps.app.goo.gl/FJcnXmeVsXd94fNZ8" 
+                      target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div id="popup-mosque1" class="popup-c">
+        <div class="popup-content-c">
+            <div class="pop-up-c">
+              <span class="close-c" id="close-popup-mosque1" onclick="closePopupMosque1()">&times;</span>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="section-heading">
+                  </div>
+                </div>
+                <div class="col-lg-12 align-self-center">
+                  <form id="contact-mosque1" action="" method="get">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3>Al-Azhar Mosque</h3>
+                        <br>
+                      </div>
+                      <div class="col-lg-4"></div>
+                      <div class="col-lg-4">
+                        <label for ="clothes"><img src="assets/images/azhar.png"></label>
+                      </div>
+                      <div class="col-lg-12">
+                        <br>
+                        <label for ="clothes"><i class="fas fa-phone-alt"></i> 19439</label>
+                      </div>
+                      <div class="col-lg-12">
+                        <label for ="clothes"><a href="https://www.azhar.eg/"
+                          target="_blank"><i class="fas fa-globe"></i> www.azhar.eg</a></label>
+                      </div>
+                      <div class="col-lg-12">
+                        <label for ="clothes">Address: El-Darb El-Ahmar, El Gamaliya, Cairo Governorate 4293024</label>
+                      </div>
+                      <div class="col-lg-12">
+                        <a href="https://maps.app.goo.gl/oaYjyRqGdF8W9s229" 
+                        target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div id="popup-mosque2" class="popup-c">
+          <div class="popup-content-c">
+              <div class="pop-up-c">
+                <span class="close-c" id="close-popup-mosque2" onclick="closePopupMosque2()">&times;</span>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="section-heading">
+                    </div>
+                  </div>
+                  <div class="col-lg-12 align-self-center">
+                    <form id="contact-mosque2" action="" method="get">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>Al-Hussein Mosque</h3>
+                          <br>
+                        </div>
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4">
+                          <label for ="clothes"><img src="assets/images/hussein.png"></label>
+                        </div>
+                        <div class="col-lg-12">
+                          <br>
+                          <label for ="clothes"><i class="fas fa-phone-alt"></i>19083</label>
+                        </div>
+                        <div class="col-lg-12">
+                          <label for ="clothes">Address: 94 القصر العيني, Kafr El-Shorafa, El Marg, Cairo Governorate 4620222, Egypt</label>
+                        </div>
+                        <div class="col-lg-12">
+                          <a href="https://maps.app.goo.gl/VgqkvzhLPKbfdmKe8" 
+                          target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div id="popup-church1" class="popup-c">
+            <div class="popup-content-c">
+                <div class="pop-up-c">
+                  <span class="close-c" id="close-popup-church1" onclick="closePopupChurch1()">&times;</span>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="section-heading">
+                      </div>
+                    </div>
+                    <div class="col-lg-12 align-self-center">
+                      <form id="contact-church1" action="" method="get">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <h3>Saint Mark's Coptic Orthodox Cathedral</h3>
+                            <br>
+                          </div>
+                          <div class="col-lg-4"></div>
+                          <div class="col-lg-4">
+                            <label for ="clothes"><img src="assets/images/mark.png"></label>
+                          </div>
+                          <div class="col-lg-12">
+                            <br>
+                            <label for ="clothes"><i class="fas fa-phone-alt"></i>+20 226825374
+                            </label>
+                          </div>
+                          <div class="col-lg-12">
+                            <label for ="clothes"><a href=" https://copticorthodox.church/"
+                              target="_blank"><i class="fas fa-globe"></i> copticorthodox.church</a></label>
+                          </div>
+                         
+                          <div class="col-lg-12">
+                            <label for ="clothes">Address: 222 Ramsis, El-Abaseya, St, Cairo Governorate, Egypt</label>
+                          </div>
+                          <div class="col-lg-12">
+                            <a href="https://maps.app.goo.gl/mcX9Emv4Wqzqy5wX7" 
+                            target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+
+          
+          <div id="popup-church2" class="popup-c">
+            <div class="popup-content-c">
+                <div class="pop-up-c">
+                  <span class="close-c" id="close-popup-church2" onclick="closePopupChurch2()">&times;</span>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="section-heading">
+                      </div>
+                    </div>
+                    <div class="col-lg-12 align-self-center">
+                      <form id="contact-church2" action="" method="get">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <h3>Saint George's Church</h3>
+                            <br>
+                          </div>
+                          <div class="col-lg-4"></div>
+                          <div class="col-lg-4">
+                            <label for ="clothes"><img src="assets/images/george.png"></label>
+                          </div>
+                          <div class="col-lg-12">
+                            <br>
+                            <label for ="clothes"><i class="fas fa-phone-alt"></i>+20 237482321
+                            </label>
+                          </div>
+                          <div class="col-lg-12">
+                            <label for ="clothes"><a href=" https://www.margerges.org/ar/"
+                              target="_blank"><i class="fas fa-globe"></i> www.margerges.org</a></label>
+                          </div>
+                         
+                          <div class="col-lg-12">
+                            <label for ="clothes">Address:Mohammed Talaat, Al Agouzah, Agouza, Giza Governorate 3753541, Egypt</label>
+                          </div>
+                          <div class="col-lg-12">
+                            <a href="https://maps.app.goo.gl/xYs2mfWovjXy1AK9A" 
+                            target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            
+
+
+          
+          <div id="popup-hospital1" class="popup-c">
+            <div class="popup-content-c">
+                <div class="pop-up-c">
+                  <span class="close-c" id="close-popup-hospital1" onclick="closePopupHospital1()">&times;</span>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="section-heading">
+                      </div>
+                    </div>
+                    <div class="col-lg-12 align-self-center">
+                      <form id="contact-hospital1" action="" method="get">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <h3>Ahl Masr Burns Hospital</h3>
+                            <br>
+                          </div>
+                          <div class="col-lg-4"></div>
+                          <div class="col-lg-4">
+                            <label for ="clothes"><img src="assets/images/ahlmasr.png"></label>
+                          </div>
+                          <div class="col-lg-12">
+                            <br>
+                            <label for ="clothes"><i class="fas fa-phone-alt"></i>19885
+                            </label>
+                          </div>
+                          <div class="col-lg-12">
+                            <label for ="clothes"><a href="http://www.ahl-masr.org/"
+                              target="_blank"><i class="fas fa-globe"></i> www.ahl-masr.org</a></label>
+                          </div>
+                         
+                          <div class="col-lg-12">
+                            <label for ="clothes">Address:ثانى القاهرة الجديدة،, Cairo Governorate 4752102, Egypt</label>
+                          </div>
+                          <div class="col-lg-12">
+                            <a href="https://maps.app.goo.gl/rkmQVUYyFPL3LwNH9" 
+                            target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            
+
+
+          
+          <div id="popup-hospital2" class="popup-c">
+            <div class="popup-content-c">
+                <div class="pop-up-c">
+                  <span class="close-c" id="close-popup-hospital2" onclick="closePopupHospital2()">&times;</span>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="section-heading">
+                      </div>
+                    </div>
+                    <div class="col-lg-12 align-self-center">
+                      <form id="contact-hospital2" action="" method="get">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <h3>Al Nas Hospital</h3>
+                            <br>
+                          </div>
+                          <div class="col-lg-4"></div>
+                          <div class="col-lg-4">
+                            <label for ="clothes"><img src="assets/images/alnas.jpeg"></label>
+                          </div>
+                          <div class="col-lg-12">
+                            <label for ="clothes"><i class="fas fa-phone-alt"></i>+20 01142717904
+                            </label>
+                          </div>
+                          <div class="col-lg-12">
+                            <label for ="clothes"><a href="https://alnas-hospital.com/"
+                              target="_blank"><i class="fas fa-globe"></i> alnas-hospital.com</a></label>
+                          </div>
+                         
+                          <div class="col-lg-12">
+                            <label for ="clothes">Address:Shubra Al Kheimah, Shubra El Kheima 1, Al-Qalyubia Governorate 6210120, Egypt</label>
+                          </div>
+                          <div class="col-lg-12">
+                            <a href="https://maps.app.goo.gl/9mTqSXPUBqeeLZvB8" 
+                            target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            
+
+
+          
+          <div id="popup-school1" class="popup-c">
+            <div class="popup-content-c">
+                <div class="pop-up-c">
+                  <span class="close-c" id="close-popup-school1" onclick="closePopupSchool1()">&times;</span>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="section-heading">
+                      </div>
+                    </div>
+                    <div class="col-lg-12 align-self-center">
+                      <form id="contact-school1" action="" method="get">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <h3>Metropolitan School</h3>
+                            <br>
+                          </div>
+                          <div class="col-lg-4"></div>
+                          <div class="col-lg-4">
+                            <label for ="clothes"><img src="assets/images/metro.png"></label>
+                          </div>
+                          <div class="col-lg-12">
+                            <br>
+                            <label for ="clothes"><i class="fas fa-phone-alt"></i>+20 225374124
+                            </label>
+                          </div>
+                          <div class="col-lg-12">
+                            <label for ="clothes"><a href="https://metropolitanschool.edu.eg/"
+                              target="_blank"><i class="fas fa-globe"></i> metropolitanschool.edu.eg</a></label>
+                          </div>
+                         
+                          <div class="col-lg-12">
+                            <label for ="clothes">Address:South of Police Academy، 7 Khalid Ibn El Waleed, st, New Cairo 3, Cairo Governorate 11835, Egypt</label>
+                          </div>
+                          <div class="col-lg-12">
+                            <a href="https://maps.app.goo.gl/zPyz4qAAf5d5KidJ7" 
+                            target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            
+
+
+          
+          <div id="popup-school2" class="popup-c">
+            <div class="popup-content-c">
+                <div class="pop-up-c">
+                  <span class="close-c" id="close-popup-school2" onclick="closePopupSchool2()">&times;</span>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="section-heading">
+                      </div>
+                    </div>
+                    <div class="col-lg-12 align-self-center">
+                      <form id="contact-school2" action="" method="get">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <h3>The International School of Choueifat </h3>
+                            <br>
+                          </div>
+                          <div class="col-lg-4"></div>
+                          <div class="col-lg-4">
+                            <label for ="clothes"><img src="assets/images/cho.png"></label>
+                          </div>
+                          <div class="col-lg-12">
+                            <br>
+                            <label for ="clothes"><i class="fas fa-phone-alt"></i>+20 225428777 
+                            </label>
+                          </div>
+                          <div class="col-lg-12">
+                            <label for ="clothes"><a href=" https://isccairo.sabis.net/"
+                              target="_blank"><i class="fas fa-globe"></i> isccairo.sabis.net</a></label>
+                          </div>
+                         
+                          <div class="col-lg-12">
+                            <label for ="clothes">Address:Al Horreya، Fifth Urban Community, New Cairo, Cairo Governorate 11865, Egypt</label>
+                          </div>
+                          <div class="col-lg-12">
+                            <a href="https://maps.app.goo.gl/jJvKXo83oZGKKR7CA" 
+                            target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div id="popup-donor1" class="popup-c">
+              <div class="popup-content-c">
+                  <div class="pop-up-c">
+                    <span class="close-c" id="close-popup-donor1" onclick="closePopupDonor1()">&times;</span>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="section-heading">
+                        </div>
+                      </div>
+                      <div class="col-lg-12 align-self-center">
+                        <form id="contact-donor1" action="" method="get">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <h3>Donor Details</h3>
+                              <br>
+                              <h5><b>Personal Information</b></h5>
+                            </div>
+                            <div class="col-lg-12">
+                              <label for ="clothes">First Name: Mazen</label>
+                              <br>
+                              <label for ="clothes">Last Name: Kamel</label>
+                              <br>
+                              <label for ="clothes">Gender: Male</label>
+                              <br>
+                              <label for ="clothes">Occupation: History Teacher</label>
+                            </div>
+                            <div>
+                              <br>
+                              <h5><b>Address</b></h5>
+                              <label for ="clothes">Area: Sherouk</label>
+                              <br>
+                              <label for ="clothes">Governorate: Cairo</label>
+                            </div>
+                            <div class="col-lg-12">
+                              <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                            </div>
+                            <div class="col-lg-12">
+                              <br>
+                              <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                              target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                            </div>
+                            <div class="col-lg-12">
+                              <a href="#"  onclick="FurtherInfoX()"
+                              target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+
+              <div id="popup-x" class="popup-c">
+                <div class="popup-content-c">
+                    <div class="pop-up-c">
+                      <span class="close-c" id="close-popup-x" onclick="closePopupX()">&times;</span>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="section-heading">
+                          </div>
+                        </div>  
+                        <div class="col-lg-12 align-self-center">
+                          <form id="contact-x" action="" method="get">
+                            <div class="row">
+                          <div class="col-lg-12">
+                            <h3>Contact Details</h3>
+                          </div>
+                          <div class="col-lg-4"></div>
+                          <div class="col-lg-12">
+                            <br>
+                            <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01211101578 </label>
+                          </div>
+                          <div class="col-lg-12">
+                            <label for ="clothes"><i class="fas fa-envelope"></i> mazen.kamel@gmail.com</label>
+                          </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+
+              <div id="popup-donor2" class="popup-c">
+                <div class="popup-content-c">
+                    <div class="pop-up-c">
+                      <span class="close-c" id="close-popup-donor2" onclick="closePopupDonor2()">&times;</span>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="section-heading">
+                          </div>
+                        </div>
+                        <div class="col-lg-12 align-self-center">
+                          <form id="contact-donor2" action="" method="get">
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <h3>Donor Details</h3>
+                                <br>
+                                <h5><b>Personal Information</b></h5>
+                              </div>
+                              <div class="col-lg-12">
+                                <label for ="clothes">First Name: Magda</label>
+                                <br>
+                                <label for ="clothes">Last Name: Yasser</label>
+                                <br>
+                                <label for ="clothes">Gender: FeMale</label>
+                                <br>
+                                <label for ="clothes">Occupation: Math Teacher</label>
+                              </div>
+                              <div>
+                                <br>
+                                <h5><b>Address</b></h5>
+                                <label for ="clothes">Area: Sherouk</label>
+                                <br>
+                                <label for ="clothes">Governorate: Cairo</label>
+                              </div>
+                              <div class="col-lg-12">
+                                <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                              </div>
+                              <div class="col-lg-12">
+                                <br>
+                                <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                                target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                              </div>
+                              <div class="col-lg-12">
+                                <a href="#"  onclick="FurtherInfoZ()"
+                                target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+  
+  
+                <div id="popup-z" class="popup-c">
+                  <div class="popup-content-c">
+                      <div class="pop-up-c">
+                        <span class="close-c" id="close-popup-z" onclick="closePopupZ()">&times;</span>
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="section-heading">
+                            </div>
+                          </div>  
+                          <div class="col-lg-12 align-self-center">
+                            <form id="contact-z" action="" method="get">
+                              <div class="row">
+                            <div class="col-lg-12">
+                              <h3>Contact Details</h3>
+                            </div>
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-12">
+                              <br>
+                              <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01211101578 </label>
+                            </div>
+                            <div class="col-lg-12">
+                              <label for ="clothes"><i class="fas fa-envelope"></i> magda.yasser@gmail.com</label>
+                            </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div id="popup-donor3" class="popup-c">
+                  <div class="popup-content-c">
+                      <div class="pop-up-c">
+                        <span class="close-c" id="close-popup-donor3" onclick="closePopupDonor3()">&times;</span>
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="section-heading">
+                            </div>
+                          </div>
+                          <div class="col-lg-12 align-self-center">
+                            <form id="contact-donor3" action="" method="get">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <h3>Donor Details</h3>
+                                  <br>
+                                  <h5><b>Personal Information</b></h5>
+                                </div>
+                                <div class="col-lg-12">
+                                  <label for ="clothes">First Name: Arwa</label>
+                                  <br>
+                                  <label for ="clothes">Last Name: Taha</label>
+                                  <br>
+                                  <label for ="clothes">Gender: Female</label>
+                                  <br>
+                                  <label for ="clothes">Occupation: Science Teacher</label>
+                                </div>
+                                <div>
+                                  <br>
+                                  <h5><b>Address</b></h5>
+                                  <label for ="clothes">Area: Sherouk</label>
+                                  <br>
+                                  <label for ="clothes">Governorate: Cairo</label>
+                                </div>
+                                <div class="col-lg-12">
+                                  <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                                </div>
+                                <div class="col-lg-12">
+                                  <br>
+                                  <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                                  target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                                </div>
+                                <div class="col-lg-12">
+                                  <a href="#"  onclick="FurtherInfoY()"
+                                  target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+    
+    
+                  <div id="popup-y" class="popup-c">
+                    <div class="popup-content-c">
+                        <div class="pop-up-c">
+                          <span class="close-c" id="close-popup-y" onclick="closePopupY()">&times;</span>
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="section-heading">
+                              </div>
+                            </div>  
+                            <div class="col-lg-12 align-self-center">
+                              <form id="contact-y" action="" method="get">
+                                <div class="row">
+                              <div class="col-lg-12">
+                                <h3>Contact Details</h3>
+                              </div>
+                              <div class="col-lg-4"></div>
+                              <div class="col-lg-12">
+                                <br>
+                                <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01211101578 </label>
+                              </div>
+                              <div class="col-lg-12">
+                                <label for ="clothes"><i class="fas fa-envelope"></i> arwa.taha@gmail.com</label>
+                              </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div id="popup-donor4" class="popup-c">
+                    <div class="popup-content-c">
+                        <div class="pop-up-c">
+                          <span class="close-c" id="close-popup-donor4" onclick="closePopupDonor4()">&times;</span>
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="section-heading">
+                              </div>
+                            </div>
+                            <div class="col-lg-12 align-self-center">
+                              <form id="contact-donor4" action="" method="get">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <h3>Donor Details</h3>
+                                    <br>
+                                    <h5><b>Personal Information</b></h5>
+                                  </div>
+                                  <div class="col-lg-12">
+                                    <label for ="clothes">First Name: Abdelrahman</label>
+                                    <br>
+                                    <label for ="clothes">Last Name: Hesham</label>
+                                    <br>
+                                    <label for ="clothes">Gender: Male</label>
+                                    <br>
+                                    <label for ="clothes">Occupation: Arabic Teacher</label>
+                                  </div>
+                                  <div>
+                                    <br>
+                                    <h5><b>Address</b></h5>
+                                    <label for ="clothes">Area: Sherouk</label>
+                                    <br>
+                                    <label for ="clothes">Governorate: Cairo</label>
+                                  </div>
+                                  <div class="col-lg-12">
+                                    <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                                  </div>
+                                  <div class="col-lg-12">
+                                    <br>
+                                    <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                                    target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                                  </div>
+                                  <div class="col-lg-12">
+                                    <a href="#"  onclick="FurtherInfoB()"
+                                    target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+      
+      
+                    <div id="popup-b" class="popup-c">
+                      <div class="popup-content-c">
+                          <div class="pop-up-c">
+                            <span class="close-c" id="close-popup-b" onclick="closePopupB()">&times;</span>
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <div class="section-heading">
+                                </div>
+                              </div>  
+                              <div class="col-lg-12 align-self-center">
+                                <form id="contact-b" action="" method="get">
+                                  <div class="row">
+                                <div class="col-lg-12">
+                                  <h3>Contact Details</h3>
+                                </div>
+                                <div class="col-lg-4"></div>
+                                <div class="col-lg-12">
+                                  <br>
+                                  <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01251101578 </label>
+                                </div>
+                                <div class="col-lg-12">
+                                  <label for ="clothes"><i class="fas fa-envelope"></i> abdelrahman.hesham@gmail.com</label>
+                                </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+
+                    <div id="popup-donor5" class="popup-c">
+                      <div class="popup-content-c">
+                          <div class="pop-up-c">
+                            <span class="close-c" id="close-popup-donor5" onclick="closePopupDonor5()">&times;</span>
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <div class="section-heading">
+                                </div>
+                              </div>
+                              <div class="col-lg-12 align-self-center">
+                                <form id="contact-donor5" action="" method="get">
+                                  <div class="row">
+                                    <div class="col-lg-12">
+                                      <h3>Donor Details</h3>
+                                      <br>
+                                      <h5><b>Personal Information</b></h5>
+                                    </div>
+                                    <div class="col-lg-12">
+                                      <label for ="clothes">First Name: Nada</label>
+                                      <br>
+                                      <label for ="clothes">Last Name: Hossam</label>
+                                      <br>
+                                      <label for ="clothes">Gender: Female</label>
+                                      <br>
+                                      <label for ="clothes">Occupation: Social Studies Teacher</label>
+                                    </div>
+                                    <div>
+                                      <br>
+                                      <h5><b>Address</b></h5>
+                                      <label for ="clothes">Area: Sherouk</label>
+                                      <br>
+                                      <label for ="clothes">Governorate: Cairo</label>
+                                    </div>
+                                    <div class="col-lg-12">
+                                      <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                                    </div>
+                                    <div class="col-lg-12">
+                                      <br>
+                                      <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                                      target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                                    </div>
+                                    <div class="col-lg-12">
+                                      <a href="#"  onclick="FurtherInfoA()"
+                                      target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+        
+        
+                      <div id="popup-a" class="popup-c">
+                        <div class="popup-content-c">
+                            <div class="pop-up-c">
+                              <span class="close-c" id="close-popup-a" onclick="closePopupA()">&times;</span>
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <div class="section-heading">
+                                  </div>
+                                </div>  
+                                <div class="col-lg-12 align-self-center">
+                                  <form id="contact-a" action="" method="get">
+                                    <div class="row">
+                                  <div class="col-lg-12">
+                                    <h3>Contact Details</h3>
+                                  </div>
+                                  <div class="col-lg-4"></div>
+                                  <div class="col-lg-12">
+                                    <br>
+                                    <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01211101578 </label>
+                                  </div>
+                                  <div class="col-lg-12">
+                                    <label for ="clothes"><i class="fas fa-envelope"></i> nada.hossam@gmail.com</label>
+                                  </div>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div id="popup-donor6" class="popup-c">
+                        <div class="popup-content-c">
+                            <div class="pop-up-c">
+                              <span class="close-c" id="close-popup-donor6" onclick="closePopupDonor6()">&times;</span>
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <div class="section-heading">
+                                  </div>
+                                </div>
+                                <div class="col-lg-12 align-self-center">
+                                  <form id="contact-donor6" action="" method="get">
+                                    <div class="row">
+                                      <div class="col-lg-12">
+                                        <h3>Donor Details</h3>
+                                        <br>
+                                        <h5><b>Personal Information</b></h5>
+                                      </div>
+                                      <div class="col-lg-12">
+                                        <label for ="clothes">First Name: Menna</label>
+                                        <br>
+                                        <label for ="clothes">Last Name: Zein</label>
+                                        <br>
+                                        <label for ="clothes">Gender: Female</label>
+                                        <br>
+                                        <label for ="clothes">Occupation: English Teacher</label>
+                                      </div>
+                                      <div>
+                                        <br>
+                                        <h5><b>Address</b></h5>
+                                        <label for ="clothes">Area: Sherouk</label>
+                                        <br>
+                                        <label for ="clothes">Governorate: Cairo</label>
+                                      </div>
+                                      <div class="col-lg-12">
+                                        <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                                      </div>
+                                      <div class="col-lg-12">
+                                        <br>
+                                        <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                                        target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                                      </div>
+                                      <div class="col-lg-12">
+                                        <a href="#"  onclick="FurtherInfoJ()"
+                                        target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+          
+          
+                        <div id="popup-j" class="popup-c">
+                          <div class="popup-content-c">
+                              <div class="pop-up-c">
+                                <span class="close-c" id="close-popup-j" onclick="closePopupJ()">&times;</span>
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="section-heading">
+                                    </div>
+                                  </div>  
+                                  <div class="col-lg-12 align-self-center">
+                                    <form id="contact-j" action="" method="get">
+                                      <div class="row">
+                                    <div class="col-lg-12">
+                                      <h3>Contact Details</h3>
+                                    </div>
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-12">
+                                      <br>
+                                      <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01211101578 </label>
+                                    </div>
+                                    <div class="col-lg-12">
+                                      <label for ="clothes"><i class="fas fa-envelope"></i> menna.zein@gmail.com</label>
+                                    </div>
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+
+                        <div id="popup-donor7" class="popup-c">
+                          <div class="popup-content-c">
+                              <div class="pop-up-c">
+                                <span class="close-c" id="close-popup-donor7" onclick="closePopupDonor7()">&times;</span>
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="section-heading">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-12 align-self-center">
+                                    <form id="contact-donor7" action="" method="get">
+                                      <div class="row">
+                                        <div class="col-lg-12">
+                                          <h3>Donor Details</h3>
+                                          <br>
+                                          <h5><b>Personal Information</b></h5>
+                                        </div>
+                                        <div class="col-lg-12">
+                                          <label for ="clothes">First Name: Mohamed</label>
+                                          <br>
+                                          <label for ="clothes">Last Name: Basel</label>
+                                          <br>
+                                          <label for ="clothes">Gender: Male</label>
+                                          <br>
+                                          <label for ="clothes">Occupation: Pediatrics Doctor</label>
+                                        </div>
+                                        <div>
+                                          <br>
+                                          <h5><b>Address</b></h5>
+                                          <label for ="clothes">Area: Sherouk</label>
+                                          <br>
+                                          <label for ="clothes">Governorate: Cairo</label>
+                                        </div>
+                                        <div class="col-lg-12">
+                                          <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                                        </div>
+                                        <div class="col-lg-12">
+                                          <br>
+                                          <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                                          target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                                        </div>
+                                        <div class="col-lg-12">
+                                          <a href="#"  onclick="FurtherInfoR()"
+                                          target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                                        </div>
+                                      </div>
+                                    </form>
+                                  </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+            
+            
+                          <div id="popup-r" class="popup-c">
+                            <div class="popup-content-c">
+                                <div class="pop-up-c">
+                                  <span class="close-c" id="close-popup-r" onclick="closePopupR()">&times;</span>
+                                  <div class="row">
+                                    <div class="col-lg-12">
+                                      <div class="section-heading">
+                                      </div>
+                                    </div>  
+                                    <div class="col-lg-12 align-self-center">
+                                      <form id="contact-r" action="" method="get">
+                                        <div class="row">
+                                      <div class="col-lg-12">
+                                        <h3>Contact Details</h3>
+                                      </div>
+                                      <div class="col-lg-4"></div>
+                                      <div class="col-lg-12">
+                                        <br>
+                                        <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01211101578 </label>
+                                      </div>
+                                      <div class="col-lg-12">
+                                        <label for ="clothes"><i class="fas fa-envelope"></i> mohamed.basel@gmail.com</label>
+                                      </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+
+                          <div id="popup-donor8" class="popup-c">
+                            <div class="popup-content-c">
+                                <div class="pop-up-c">
+                                  <span class="close-c" id="close-popup-donor8" onclick="closePopupDonor8()">&times;</span>
+                                  <div class="row">
+                                    <div class="col-lg-12">
+                                      <div class="section-heading">
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-12 align-self-center">
+                                      <form id="contact-donor8" action="" method="get">
+                                        <div class="row">
+                                          <div class="col-lg-12">
+                                            <h3>Donor Details</h3>
+                                            <br>
+                                            <h5><b>Personal Information</b></h5>
+                                          </div>
+                                          <div class="col-lg-12">
+                                            <label for ="clothes">First Name: Noor</label>
+                                            <br>
+                                            <label for ="clothes">Last Name: Abdelghafar</label>
+                                            <br>
+                                            <label for ="clothes">Gender: Male</label>
+                                            <br>
+                                            <label for ="clothes">Occupation: Cardiologist</label>
+                                          </div>
+                                          <div>
+                                            <br>
+                                            <h5><b>Address</b></h5>
+                                            <label for ="clothes">Area: Sherouk</label>
+                                            <br>
+                                            <label for ="clothes">Governorate: Cairo</label>
+                                          </div>
+                                          <div class="col-lg-12">
+                                            <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                                          </div>
+                                          <div class="col-lg-12">
+                                            <br>
+                                            <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                                            target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                                          </div>
+                                          <div class="col-lg-12">
+                                            <a href="#"  onclick="FurtherInfo8()"
+                                            target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                                          </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+              
+              
+                            <div id="popup-8" class="popup-c">
+                              <div class="popup-content-c">
+                                  <div class="pop-up-c">
+                                    <span class="close-c" id="close-popup-8" onclick="closePopup8()">&times;</span>
+                                    <div class="row">
+                                      <div class="col-lg-12">
+                                        <div class="section-heading">
+                                        </div>
+                                      </div>  
+                                      <div class="col-lg-12 align-self-center">
+                                        <form id="contact-8" action="" method="get">
+                                          <div class="row">
+                                        <div class="col-lg-12">
+                                          <h3>Contact Details</h3>
+                                        </div>
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-12">
+                                          <br>
+                                          <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01211101578 </label>
+                                        </div>
+                                        <div class="col-lg-12">
+                                          <label for ="clothes"><i class="fas fa-envelope"></i> noor.abdelghafar@gmail.com</label>
+                                        </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+
+                            <div id="popup-donor9" class="popup-c">
+                              <div class="popup-content-c">
+                                  <div class="pop-up-c">
+                                    <span class="close-c" id="close-popup-donor9" onclick="closePopupDonor9()">&times;</span>
+                                    <div class="row">
+                                      <div class="col-lg-12">
+                                        <div class="section-heading">
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-12 align-self-center">
+                                        <form id="contact-donor9" action="" method="get">
+                                          <div class="row">
+                                            <div class="col-lg-12">
+                                              <h3>Donor Details</h3>
+                                              <br>
+                                              <h5><b>Personal Information</b></h5>
+                                            </div>
+                                            <div class="col-lg-12">
+                                              <label for ="clothes">First Name: Merna</label>
+                                              <br>
+                                              <label for ="clothes">Last Name: Mamdouh</label>
+                                              <br>
+                                              <label for ="clothes">Gender: Female</label>
+                                              <br>
+                                              <label for ="clothes">Occupation: Dentist</label>
+                                            </div>
+                                            <div>
+                                              <br>
+                                              <h5><b>Address</b></h5>
+                                              <label for ="clothes">Area: Sherouk</label>
+                                              <br>
+                                              <label for ="clothes">Governorate: Cairo</label>
+                                            </div>
+                                            <div class="col-lg-12">
+                                              <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                                            </div>
+                                            <div class="col-lg-12">
+                                              <br>
+                                              <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                                              target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                                            </div>
+                                            <div class="col-lg-12">
+                                              <a href="#"  onclick="FurtherInfo9()"
+                                              target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                                            </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                
+                
+                              <div id="popup-9" class="popup-c">
+                                <div class="popup-content-c">
+                                    <div class="pop-up-c">
+                                      <span class="close-c" id="close-popup-9" onclick="closePopup9()">&times;</span>
+                                      <div class="row">
+                                        <div class="col-lg-12">
+                                          <div class="section-heading">
+                                          </div>
+                                        </div>  
+                                        <div class="col-lg-12 align-self-center">
+                                          <form id="contact-9" action="" method="get">
+                                            <div class="row">
+                                          <div class="col-lg-12">
+                                            <h3>Contact Details</h3>
+                                          </div>
+                                          <div class="col-lg-4"></div>
+                                          <div class="col-lg-12">
+                                            <br>
+                                            <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01211101578 </label>
+                                          </div>
+                                          <div class="col-lg-12">
+                                            <label for ="clothes"><i class="fas fa-envelope"></i> merna.mamdouh@gmail.com</label>
+                                          </div>
+                                            </div>
+                                          </form>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                              </div>
+
+                              <div id="popup-donor10" class="popup-c">
+                                <div class="popup-content-c">
+                                    <div class="pop-up-c">
+                                      <span class="close-c" id="close-popup-donor10" onclick="closePopupDonor10()">&times;</span>
+                                      <div class="row">
+                                        <div class="col-lg-12">
+                                          <div class="section-heading">
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-12 align-self-center">
+                                          <form id="contact-donor10" action="" method="get">
+                                            <div class="row">
+                                              <div class="col-lg-12">
+                                                <h3>Donor Details</h3>
+                                                <br>
+                                                <h5><b>Personal Information</b></h5>
+                                              </div>
+                                              <div class="col-lg-12">
+                                                <label for ="clothes">First Name: Omar</label>
+                                                <br>
+                                                <label for ="clothes">Last Name: Medhat</label>
+                                                <br>
+                                                <label for ="clothes">Gender: Male</label>
+                                                <br>
+                                                <label for ="clothes">Occupation: Oncologist</label>
+                                              </div>
+                                              <div>
+                                                <br>
+                                                <h5><b>Address</b></h5>
+                                                <label for ="clothes">Area: Sherouk</label>
+                                                <br>
+                                                <label for ="clothes">Governorate: Cairo</label>
+                                              </div>
+                                              <div class="col-lg-12">
+                                                <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                                              </div>
+                                              <div class="col-lg-12">
+                                                <br>
+                                                <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                                                target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                                              </div>
+                                              <div class="col-lg-12">
+                                                <a href="#"  onclick="FurtherInfo10()"
+                                                target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                                              </div>
+                                            </div>
+                                          </form>
+                                        </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                  
+                  
+                                <div id="popup-10" class="popup-c">
+                                  <div class="popup-content-c">
+                                      <div class="pop-up-c">
+                                        <span class="close-c" id="close-popup-10" onclick="closePopup10()">&times;</span>
+                                        <div class="row">
+                                          <div class="col-lg-12">
+                                            <div class="section-heading">
+                                            </div>
+                                          </div>  
+                                          <div class="col-lg-12 align-self-center">
+                                            <form id="contact-10" action="" method="get">
+                                              <div class="row">
+                                            <div class="col-lg-12">
+                                              <h3>Contact Details</h3>
+                                            </div>
+                                            <div class="col-lg-4"></div>
+                                            <div class="col-lg-12">
+                                              <br>
+                                              <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01211101578 </label>
+                                            </div>
+                                            <div class="col-lg-12">
+                                              <label for ="clothes"><i class="fas fa-envelope"></i> omar.medhat@gmail.com</label>
+                                            </div>
+                                              </div>
+                                            </form>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+
+                                <div id="popup-donor11" class="popup-c">
+                                  <div class="popup-content-c">
+                                      <div class="pop-up-c">
+                                        <span class="close-c" id="close-popup-donor11" onclick="closePopupDonor11()">&times;</span>
+                                        <div class="row">
+                                          <div class="col-lg-12">
+                                            <div class="section-heading">
+                                            </div>
+                                          </div>
+                                          <div class="col-lg-12 align-self-center">
+                                            <form id="contact-donor11" action="" method="get">
+                                              <div class="row">
+                                                <div class="col-lg-12">
+                                                  <h3>Donor Details</h3>
+                                                  <br>
+                                                  <h5><b>Personal Information</b></h5>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                  <label for ="clothes">First Name: Mohamed</label>
+                                                  <br>
+                                                  <label for ="clothes">Last Name: El Aby</label>
+                                                  <br>
+                                                  <label for ="clothes">Gender: Male</label>
+                                                  <br>
+                                                  <label for ="clothes">Occupation: Pediatrition</label>
+                                                </div>
+                                                <div>
+                                                  <br>
+                                                  <h5><b>Address</b></h5>
+                                                  <label for ="clothes">Area: Sherouk</label>
+                                                  <br>
+                                                  <label for ="clothes">Governorate: Cairo</label>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                  <label for ="clothes">Address: 6 Gamal Abd Nasser Street, Al Nafoura Sq., Cairo Governorate</label>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                  <br>
+                                                  <a href="https://maps.app.goo.gl/NJEgR9TiPR5z2mfD6" 
+                                                  target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                  <a href="#"  onclick="FurtherInfo11()"
+                                                  target="_blank"><i class="fas fa-phone-alt"></i> Contact Details</a>
+                                                </div>
+                                              </div>
+                                            </form>
+                                          </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                    
+                    
+                                  <div id="popup-11" class="popup-c">
+                                    <div class="popup-content-c">
+                                        <div class="pop-up-c">
+                                          <span class="close-c" id="close-popup-11" onclick="closePopup11()">&times;</span>
+                                          <div class="row">
+                                            <div class="col-lg-12">
+                                              <div class="section-heading">
+                                              </div>
+                                            </div>  
+                                            <div class="col-lg-12 align-self-center">
+                                              <form id="contact-11" action="" method="get">
+                                                <div class="row">
+                                              <div class="col-lg-12">
+                                                <h3>Contact Details</h3>
+                                              </div>
+                                              <div class="col-lg-4"></div>
+                                              <div class="col-lg-12">
+                                                <br>
+                                                <label for ="clothes"><i class="fas fa-phone-alt"></i> +02 01211101578 </label>
+                                              </div>
+                                              <div class="col-lg-12">
+                                                <label for ="clothes"><i class="fas fa-envelope"></i> mohamed.elaby@gmail.com</label>
+                                              </div>
+                                                </div>
+                                              </form>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+
+
+
+
+  <div class="footer-dec">
+    <img src="assets/images/footer-dec.png" alt="">
+  </div>
+  <footer>
+    <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="community footer-item">
+            <h4>Upcoming Events</h4>
+            <section>
+              <ul class="dates">
+                <li>
+                  <span class="date">Feb <strong>16</strong></span>
+                  <h3><a href="#">Start of Ramadan Box Packing</a></h3>
+                  <p>Packing canned food and condiments for Ramadan.</p>
+                </li>
+                <li>
+                  <span class="date">Feb <strong>21</strong></span>
+                  <h3><a href="#">Walkathon/ Marathon</a></h3>
+                  <p>Gathering donations based on distance covered.</p>
+                </li>
+                <li>
+                  <span class="date">Feb <strong>25</strong></span>
+                  <h3><a href="#">Volunteer Day</a></h3>
+                  <p>Inviting volunteers to participate in hands-on activities.</p>
+                </li>
+                <li>
+                  <span class="date">Feb <strong>29</strong></span>
+                  <h3><a href="#">Environmental Cleanup Day</a></h3>
+                  <p>Help raise awareness about environmental issues.</p>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="community footer-item">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><i class="fas fa-envelope"></i> info@sawafoundation.org</li>
+              <li><i class="fas fa-phone-alt"></i> 19019</li>
+              <li><i class="fas fa-map-marker-alt"></i> Street 10, New Cairo, Cairo, Egypt</li>
+            </ul>
+            <br>
+          </div>
+          <div class="about footer-item">
+            <ul>
+              <li><a href="#footer"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#footer"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#footer"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#footer"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <br>
+          </div>
+          <div class="community footer-item">
+          <h4>Download The Application</h4>
+          <img src="assets/images/download-app.png">
+        </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="subscribe-newsletters footer-item">
+            <h4>About Us</h4>
+            <div class="logo">
+              <a href="register.html"><img src="assets/images/logo.png" alt="logo" class="logo-img"></a>
+            </div>
+            <p>
+              <br>
+              Sawa is a non-profit development institution established in 2003 with the objective of helping individuals. 
+              Three key areas have been selected for donations namely: Health, Education and Aspects of Life.</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright">
+            <p>Sawa Foundation - Copyright © 2024. All Rights Reserved. 
+            <br></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/admin.js"></script>
+
+  <script>
+  // Acc
+    $(document).on("click", ".naccs .menu div", function() {
+      var numberIndex = $(this).index();
+
+      if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+    });
+  </script>
+  
+</body>
+</html>
